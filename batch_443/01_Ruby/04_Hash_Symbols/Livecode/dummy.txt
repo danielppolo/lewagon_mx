@@ -1,0 +1,29 @@
+Idempotence (UK: /ˌɪdɛmˈpoʊtəns/,[1] US: /ˌaɪdəm-/)[2] is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application. The concept of idempotence arises in a number of places in abstract algebra (in particular, in the theory of projectors and closure operators) and functional programming (in which it is connected to the property of referential transparency).
+
+The term was introduced by Benjamin Peirce[3] in the context of elements of algebras that remain invariant when raised to a positive integer power, and literally means "(the quality of having) the same power", from idem + potence (same + power).
+
+
+Contents
+1	Definition
+2	Examples
+2.1	Idempotent functions
+3	Computer science meaning
+3.1	Computer science examples
+4	Applied examples
+5	See also
+6	References
+7	Further reading
+Definition
+An element x of a magma (M, •) is said to be idempotent if:[4][5]
+
+x • x = x.
+If all elements are idempotent with respect to •, then • is called idempotent. The formula ∀x, x • x = x is called the idempotency law for •.[6][7]
+
+Examples
+The natural number 1 is an idempotent element with respect to multiplication (since 1×1 = 1), and so is 0 (since 0×0 = 0), but no other natural number is (e.g. 2×2 = 2 does not hold). For the latter reason, multiplication of natural numbers is not an idempotent operation. More formally, in the monoid (ℕ, ×), idempotent elements are just 0 and 1.
+In a magma (M, •), an identity element e or an absorbing element a, if it exists, is idempotent. Indeed, e • e = e and a • a = a.
+In a group (G, •), the identity element e is the only idempotent element. Indeed, if x is an element of G such that x • x = x, then x • x = x • e and finally x = e by multiplying on the left by the inverse element of x.
+Taking the intersection x∩y of two sets x and y is an idempotent operation, since x∩x always equals x. This means that the idempotency law ∀x, x∩x = x is true. Similarly, taking the union of two sets is an idempotent operation. Formally, in the monoids (𝒫(E), ∪) and (𝒫(E), ∩) of the power set of the set E with the set union ∪ and set intersection ∩ respectively, all elements are idempotent; hence ∪ and ∩ are idempotent operations on 𝒫(E).
+In the monoids ({0, 1}, ∨) and ({0, 1}, ∧) of the Boolean domain with the logical disjunction ∨ and the logical conjunction ∧ respectively, all elements are idempotent.
+In a Boolean ring, multiplication is idempotent.
+In a Tropical semiring, addition is idempotent.
