@@ -1,0 +1,3 @@
+- [x] Users should be able to list recipes
+- [x] Users should be able to add recipes
+- [x] Users should be able to remove recipes
