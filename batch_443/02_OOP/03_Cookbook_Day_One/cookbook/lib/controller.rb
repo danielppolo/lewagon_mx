@@ -11,7 +11,7 @@ class Controller
     # 3. ASK VIEW for a number to delete
     recipe_index = @view.ask_for_index
     # 4. ASK REPO to remove it
-    @cookbook.remove(recipe_index)
+    @cookbook.remove_recipe(recipe_index)
   end
 
   def list
@@ -26,7 +26,7 @@ class Controller
     # 3. ASK RECIPE to initialize a recipe
     recipe = Recipe.new(name, description)
     # 4. ASK REPO to persist it
-    @cookbook.add(recipe)
+    @cookbook.add_recipe(recipe)
   end
 
   private

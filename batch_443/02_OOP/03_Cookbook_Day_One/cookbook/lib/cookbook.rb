@@ -8,12 +8,12 @@ class Cookbook
     load_recipes_from_csv
   end
 
-  def add(recipe)
+  def add_recipe(recipe)
     @recipes << recipe
     update_recipes_to_csv
   end
 
-  def remove(index)
+  def remove_recipe(index)
     @recipes.delete_at(index)
     update_recipes_to_csv
   end
