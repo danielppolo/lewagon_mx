@@ -1,0 +1,83 @@
+body {
+  background-color: #F7F9FC;
+  text-align: center;
+}
+
+h1, h2, a {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: darkslategray;
+  font-weight: 900;
+}
+
+p {
+  color: darkslategray;
+}
+
+h2 {
+  color: lightgreen;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.btn-red {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: 100ms;
+  padding: 10px;
+}
+
+.btn-red:hover {
+  background-color: black; 
+  /* text-decoration: underline; */
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links > li {
+  display: inline;
+  font-size: 24px;
+  margin: 0 0.5em;
+}
+
+.social-links i {
+  color: gainsboro;
+  transition: 200ms;
+}
+
+.social-links i:hover {
+  color: black;
+}
