@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('./components/button.css');
+@import url('./components/hero.css');
+@import url('./components/input.css');
+@import url('./components/icon-button.css');
+@import url('./components/container.css');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+ margin: 0; 
+}
+
+.wrapper {
+  height: 800px;
+  display: flex;
+}
+
+.form-container, .picture-container {
+  /* width: 50%; */
+  flex-basis: 50%;
+}
+
+.picture-container {
+  background-size: cover;
+  background-position: center;
+}
+
+.font-gray {
+  color: lightgray;
+}
+
+.font-small {
+  font-size: 12px;
+}
