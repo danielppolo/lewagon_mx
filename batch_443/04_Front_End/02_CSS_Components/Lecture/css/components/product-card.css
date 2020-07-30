@@ -1,0 +1,24 @@
+.product-card {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.product-card > .product-picture {
+  width: 200px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-card > .product-description {
+  margin-left: 16px;
+}
+
+.product-card h2,
+.product-card p  {
+  margin: 0;
+}

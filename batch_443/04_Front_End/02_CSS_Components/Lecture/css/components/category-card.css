@@ -1,0 +1,18 @@
+.category-card {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.category-card > span{
+ font-size: 24px;
+ color: white;
+ text-shadow: 0 0 2px rgba(0,0,0,0.2);
+ font-family: 'Montserrat', sans-serif;
+}

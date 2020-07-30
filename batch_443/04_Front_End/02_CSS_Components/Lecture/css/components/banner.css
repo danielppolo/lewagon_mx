@@ -1,0 +1,9 @@
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
