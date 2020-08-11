@@ -1,4 +1,6 @@
 <h1>Available Restaurants</h1>
-<% @restaurants.each do |restaurant| %>
-<%= restaurant.name %>
-<% end %>
+<ul>
+  <% @restaurants.each do |restaurant| %>
+  <li><%= link_to restaurant.name, restaurant_path(restaurant) %></li>
+  <% end %>
+</ul>
