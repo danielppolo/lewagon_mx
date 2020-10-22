@@ -5,4 +5,8 @@ class Customer
     @address = attributes[:address]
     @id = attributes[:id]
   end
+
+  def to_s
+    "#{@name}, located in #{@address}"
+  end
 end

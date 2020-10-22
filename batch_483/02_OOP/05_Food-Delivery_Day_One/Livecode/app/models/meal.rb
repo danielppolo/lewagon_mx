@@ -6,4 +6,8 @@ class Meal
     @id = attributes[:id]
     @price = attributes[:price] || 0
   end
+
+  def to_s
+    "#{@name} ($#{@price})"
+  end
 end
