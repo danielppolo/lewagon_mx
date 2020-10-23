@@ -1,0 +1,5 @@
+id,first_name,last_name,cured,blood_type,room_id
+1,daniel,polo,true,A+,1
+2,andrea,bazan,false,O-,2
+3,Ignacio,Al,false,A+,2
+4,Suzan,Al,false,O+,3
