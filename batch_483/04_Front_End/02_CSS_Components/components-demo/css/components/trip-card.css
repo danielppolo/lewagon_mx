@@ -1,0 +1,28 @@
+.trip-card {
+  height: 300px;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.trip-card>img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.trip-card>div {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.trip-card h2,
+.trip-card p {
+  margin: 0;
+}

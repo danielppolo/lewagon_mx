@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flex demo</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      .flexbox {
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row; /* row | column */
+        /* VERTICAL */
+        justify-content: space-around; /* space-around | space-evenly | space-between | flex-start | flex-end | center*/
+        /* HORIZONTAL */
+        align-items: center; /*  flex-start | flex-end | center*/
+      }
+      .flex-item {
+        background-color: blue;
+        flex-basis: 400px;
+        height: 100px;
+        border: 2px solid black;
+      }
+      .grow {
+        background-color: green;
+        flex-grow: 1; /*  0 |  1 */
+      }
+      .shrink {
+        background-color: purple;
+        flex-shrink: 2; /*  0 |  1 */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div class="flex-item"></div>
+      <div class="flex-item"></div>
+      <div class="flex-item shrink"></div>
+    </div>
+  </body>
+
+</html>

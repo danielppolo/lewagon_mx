@@ -1,0 +1,11 @@
+.product-card {
+  width: 100%;
+  max-width: 240px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  border-radius: 8px;
+  color: white;
+}
