@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F7F9FC;
+  color: #575F91;
+}
+
+h1 {
+  color: #575F7D;
+}
+
+h2 {
+  color: #7ECE90;
+}
+
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 20px 5px 3px;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: red;
+}
+
+i {
+  font-size: 2rem;
+  color: rgb(230, 230, 230);
+}
