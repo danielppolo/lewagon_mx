@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container">
+  <div class="row">
+    <% @gardens.each do |garden| %>
+      <div class="col-4">
+      <%= link_to garden, class: 'plain-link' do %>
+        <div class="card">
+          <img class="card-img-top garden-card-picture" src="<%= garden.image_url %>" alt="<%= garden.name %>">
+          <div class="card-body">
+            <h3><%= garden.name %></h3>
+            <%= link_to 'Edit', edit_garden_path(garden) %>
+            <%= link_to 'Destroy', garden, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </div>
+        </div>
+      <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
