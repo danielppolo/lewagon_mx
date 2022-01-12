@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "jquery": "^3.5.1",
-    "markdown-it": "^12.0.2",
+    "markdown-it": "^12.3.2",
     "select2": "^4.0.13",
     "sortablejs": "^1.12.0"
   }
